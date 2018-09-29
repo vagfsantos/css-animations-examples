@@ -1,0 +1,22 @@
+{
+  "name": "css-animations-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagfsantos/css-animations-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagfsantos/css-animations-examples/issues"
+  },
+  "homepage": "https://github.com/vagfsantos/css-animations-examples#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.1"
+  }
+}
