@@ -1,0 +1,11 @@
+@import './animations/button-1', './animations/button-2', './animations/button-3';
+
+.button-list {
+  &__btn {
+    background-color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    margin-right: 1em;
+  }
+}

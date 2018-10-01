@@ -1,0 +1,7 @@
+.menu {
+  display: none;
+}
+
+#open-menu:checked + .menu {
+  display: block;
+}

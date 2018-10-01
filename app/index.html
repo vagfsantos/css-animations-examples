@@ -30,16 +30,52 @@
 
     <section>
       <h1>Modal</h1>
-      <div class="">
-        <button>Back to front</button>
-        <button>Front to back</button>
+      <div class="modal-section">
+        <button>
+          <label for="open-modal">
+            Open
+          </label>
+        </button>
+
+        <input type="checkbox" id="open-modal">
+        <div class="modal">
+          <div class="modal__content">
+            <h3>Modal</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore id architecto neque minus, reiciendis nostrum tenetur non rerum magnam dolorem nesciunt ex quae dolor rem tempora fuga mollitia illum quaerat.
+            </p>
+            <button>
+              <label for="open-modal">
+                Close
+              </label>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
+    <section class="menu-section">
       <h1>Menu</h1>
-      <div class="">
-        <button>menu lateral</button>
+      <div>
+        <button>
+          <label for="open-menu">
+            Menu
+          </label>
+        </button>
+
+        <input type="checkbox" id="open-menu">
+        <div class="menu">
+          <label class="menu__overlay" for="open-menu"></label>
+          <div class="menu__content">
+            <ul>
+              <li><a href="#">Menu item</a></li>
+              <li><a href="#">Menu item</a></li>
+              <li><a href="#">Menu item</a></li>
+              <li><a href="#">Menu item</a></li>
+              <li><a href="#">Menu item</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 

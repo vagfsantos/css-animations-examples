@@ -1,0 +1,20 @@
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s, visibility 0s 0.4s;
+}
+
+.modal__content {
+  transform: scale(0);
+  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+#open-modal:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s;
+}
+
+#open-modal:checked + .modal .modal__content {
+  transform: scale(1);
+}

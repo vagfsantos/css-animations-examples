@@ -1,0 +1,10 @@
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+#open-modal:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}

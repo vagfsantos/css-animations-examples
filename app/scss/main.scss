@@ -1,4 +1,6 @@
 @import './base/reset.scss';
 @import './base/base.scss';
 
-@import './components/buttons.scss';
+@import './components/buttons/buttons.scss';
+@import './components/modals/modals.scss';
+@import './components/menus/menus.scss';
