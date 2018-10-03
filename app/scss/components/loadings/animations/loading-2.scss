@@ -1,0 +1,14 @@
+.loading__upload:after {
+  animation: uploading 0.8s infinite ease-in-out alternate;
+  will-change: transform;
+}
+
+@keyframes uploading {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(200px);
+  }
+}
