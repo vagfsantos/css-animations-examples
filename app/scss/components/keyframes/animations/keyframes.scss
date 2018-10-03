@@ -1,0 +1,36 @@
+@keyframes demo {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(200px);
+  }
+}
+
+.keyframes__demo {
+  animation: demo 5s infinite;
+}
+
+// .keyframes__demo {
+//   animation-name: demo;
+//   animation-duration: 5s;
+//   animation-iteration-count: infinite;
+// }
+
+.keyframes__demo-1 {
+  animation-timing-function: ease-in;
+}
+
+.keyframes__demo-2 {
+  animation-timing-function: ease-out;
+
+}
+
+.keyframes__demo-3 {
+  animation-timing-function: ease-in-out;
+}
+
+.keyframes__demo-4 {
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
